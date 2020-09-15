@@ -1,0 +1,68 @@
+/* Barra de rolagem */
+::-webkit-scrollbar{
+    width: 0.25rem;
+}
+::-webkit-scrollbar-track{
+    color: #F8F9FA;
+}
+::-webkit-scrollbar-thumb{
+    background: #8BC34A;
+}
+/* Links do header */
+.navbar .navbar-nav .nav-link{
+color: #444444;
+}
+/* Intro */
+.intro{
+    background-image: url("../img/bg.png");
+    color: #fff;
+}
+/* Introducao */
+.introducao h1{
+    color: #8BC34A;
+}
+/* Artigo 
+.artigo h4{
+    color: #555555;
+}
+.artigo p{
+    color: #777777;
+}*/
+.artigo a{
+    border: none;
+    background-color: #8BC34A;
+}
+.artigo a:hover{
+    border: none;
+    background-color: #4CAF50;
+}
+/* */
+footer a{
+    color: inherit;
+    transition: 250ms;
+}
+footer a:hover{
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/*Botão da aba aplicativo*/
+.btnapp a{
+    background-color: #ffffff;
+    color: #8BC34A;
+    border: none;
+}
+.btnapp a:hover{
+    background-color: #efefef;
+    color: #4CAF50;
+}
+
+/*Link da aba aplicativo */
+.aplicativo a{
+    text-decoration: none;
+    color: #444;
+    transition: 250ms;
+}
+.aplicativo a:hover{
+    color: #4CAF50;
+}
